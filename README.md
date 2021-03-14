@@ -49,7 +49,7 @@ The resulting time evolution of the latent variables (reduced with the SAE) and 
 
 |           Viscolastic Fluid               |             Rolling Tire              | 
 |-------------------------------------------| --------------------------------------|
-|<div align="center"> <img src="/data/visco.png" width="500"></div>|<div align="center"> <img src="/data/tire.png" width="500"></div>|
+|<div align="center"> <img src="/data/viscoelastic.png" width="500"></div>|<div align="center"> <img src="/data/tire.png" width="500"></div>|
 
 ### Train a custom net
 
