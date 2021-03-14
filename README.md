@@ -57,7 +57,7 @@ You can also run your own experiments for the implemented datasets by setting pa
 
 ```bash
 e.g.
-python main.py --sys_name visc0eolastic --train_SAE True --lr_SAE 1e-5 --lambda_r 1e-3 --train_SPNN True --lr_SPNN 1e-5 ...
+python main.py --sys_name viscoelastic --train_SAE True --lr_SAE 1e-5 --lambda_r 1e-3 --train_SPNN True --lr_SPNN 1e-5 ...
 ```
 
 General Arguments:
