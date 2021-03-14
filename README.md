@@ -38,16 +38,16 @@ pip install scipy numpy matplotlib pytorch
 
 ### Test pretrained nets
 
-The results of the paper (Viscolastic Fluid and Hyperelastic Rolling Tire) can be reproduced with the following executables, found in the `executables/` folder. The `data/` folder includes the database and the pretrained parameters of the networks.
+The results of the paper (Viscoelastic Fluid and Hyperelastic Rolling Tire) can be reproduced with the following executables, found in the `executables/` folder. The `data/` folder includes the database and the pretrained parameters of the networks.
 
 ```bash
-sh executables/run_viscolastic_test.sh
+sh executables/run_viscoelastic_test.sh
 sh executables/run_rolling_tire_test.sh
 ```
 
 The resulting time evolution of the latent variables (reduced with the SAE) and the thermodynamics-aware integrator (SPNN) are plotted and saved in .png format in a generated `outputs/` folder.
 
-|           Viscolastic Fluid               |             Rolling Tire              | 
+|           Viscoelastic Fluid               |             Rolling Tire              | 
 |-------------------------------------------| --------------------------------------|
 |<div align="center"> <img src="/data/viscoelastic.png" width="500"></div>|<div align="center"> <img src="/data/tire.png" width="500"></div>|
 
@@ -64,7 +64,7 @@ General Arguments:
 
 |     Argument              |             Description                           |           Options                |
 |---------------------------| ------------------------------------------------- |----------------------------------|
-| `--sys_name`              | Study case                                        | `viscolastic`, `rolling_tire`    |
+| `--sys_name`              | Study case                                        | `viscoelastic`, `rolling_tire`    |
 | `--train_SAE`             | Train or test mode for SAE                        | `True`, `False`                  |
 | `--train_SPNN`            | Train or test mode for SPNN                       | `True`, `False`                  |
 | `--dset_dir`              | Dataset and pretrained nets directory             | Default: `data`                  |
