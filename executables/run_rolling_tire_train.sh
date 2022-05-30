@@ -1,4 +1,4 @@
-
+#!/bin/bash
 python main.py --sys_name rolling_tire \
     --train_SAE True --max_epoch_SAE 4000 --miles_SAE 2000 --gamma_SAE 1e-1 \
     --lr_SAE 1e-3 --lambda_r_SAE 1e-2 --layer_vec_SAE_q 12420, 40, 40, 10 --layer_vec_SAE_v 12420, 40, 40, 10 --layer_vec_SAE_sigma 24840, 80, 80, 20 \
