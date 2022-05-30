@@ -1,4 +1,4 @@
-
+#!/bin/bash
 python main.py --sys_name viscoelastic \
     --train_SAE True --max_epoch_SAE 10000 --miles_SAE 5000 --gamma_SAE 1e-1 \
     --lr_SAE 1e-3 --lambda_r_SAE 1e-4 --layer_vec_SAE 400, 160, 160, 10 \
