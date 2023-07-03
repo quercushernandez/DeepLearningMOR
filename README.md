@@ -83,8 +83,7 @@ Sparse Autoencoder (SAE) Arguments:
 | `--activation_SAE`        | Activation functions of the hidden layers         | Default: `2e3`                      |
 | `--max_epoch_SAE`         | Maximum number of training epochs                 | Default: `10e3`                     |
 | `--lr_SAE`                | Learning rate                                     | Default: `1e-4`                     |
-| `--weight_decay_SAE`      | Weight decay regularizer                          | Default: `0`                        |
-| `--lambda_r`              | Sparse regularizer                                | Default: `1e-3`                     |
+| `--lambda_r_SAE`          | Sparse regularizer                                | Default: `1e-3`                     |
 
 Structure-Preserving Neural Network (SPNN) Arguments:
 
