@@ -31,7 +31,7 @@ Then, install the needed dependencies. The code is implemented in [Pytorch](http
 
 ```bash
 # install dependencies
-pip install scipy numpy matplotlib pytorch
+pip install scipy numpy matplotlib torch
  ```
 
 ## How to run the code  
